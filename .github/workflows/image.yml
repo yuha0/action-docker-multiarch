@@ -1,4 +1,4 @@
-name: Build cloudflare-ddns Docker image (multi-arch)
+name: Build Multi-arch container image with Docker
 
 on:
   push:
