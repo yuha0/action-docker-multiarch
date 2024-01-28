@@ -1,11 +1,7 @@
 name: Build Multi-arch container image with Docker
 
 on:
-  push:
-    branches:
-    - '*'
-    tags:
-    - 'v*'
+  workflow_call:
 
 env:
   GH_REPO: ${{ github.repository }}
